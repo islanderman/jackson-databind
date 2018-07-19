@@ -33,7 +33,7 @@ public class PropertyName
      * Exact semantics to use (if any) depend on actual annotation in use, but
      * commonly this value disables behavior for which name would be needed.
      */
-    public final static PropertyName NO_NAME = new PropertyName(new String(_NO_NAME), null);
+    public final static PropertyName NO_NAME = new PropertyName(_NO_NAME, null);
 
     private final static InternCache INTERNER = InternCache.instance;
 
